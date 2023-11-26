@@ -109,18 +109,18 @@
                 <sodipodi:namedview id="namedview1" pagecolor="#0b0a0a" bordercolor="#000000" borderopacity="0.25" />
                 <defs id="defs1">
                     <linearGradient id="linearGradient98">
-                        <stop style="stop-color:#651dca;stop-opacity:0.50196081;" offset="0" />
-                        <stop style="stop-color:#651dca;stop-opacity:1;" offset="0.50209641" />
-                        <stop style="stop-color:#651dca;stop-opacity:0.49803922;" offset="1" />
+                        <stop style="stop-color:rgb(126, 244, 11);stop-opacity:0.50196081;" offset="0" />
+                        <stop style="stop-color:rgb(126, 244, 11);stop-opacity:1;" offset="0.50209641" />
+                        <stop style="stop-color:rgb(126, 244, 11);stop-opacity:0.49803922;" offset="1" />
                     </linearGradient>
                     <linearGradient id="linearGradient84">
-                        <stop style="stop-color:#651dca;stop-opacity:0;" offset="0" />
-                        <stop style="stop-color:#651dca;stop-opacity:1;" offset="0.5" />
-                        <stop style="stop-color:#651dca;stop-opacity:0;" offset="1" />
+                        <stop style="stop-color:rgb(126, 244, 11);stop-opacity:0;" offset="0" />
+                        <stop style="stop-color:rgb(126, 244, 11);stop-opacity:1;" offset="0.5" />
+                        <stop style="stop-color:rgb(126, 244, 11);stop-opacity:0;" offset="1" />
                     </linearGradient>
                     <linearGradient id="linearGradient75">
-                        <stop style="stop-color:#651dca;stop-opacity:0;" offset="0" />
-                        <stop style="stop-color:#651dca;stop-opacity:1;" offset="1" />
+                        <stop style="stop-color:rgb(126, 244, 11);stop-opacity:0;" offset="0" />
+                        <stop style="stop-color:rgb(126, 244, 11);stop-opacity:1;" offset="1" />
                     </linearGradient>
                     <linearGradient xlink:href="#linearGradient84" id="linearGradient60" gradientUnits="userSpaceOnUse"
                         gradientTransform="matrix(0,-0.60610956,0.64747174,0,9.9789553,50.364306)" x1="20.939892"
@@ -235,9 +235,10 @@ input[type=checkbox] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 1.33rem;
+    width: 1.5rem;
     aspect-ratio: 1;
     padding: 0;
+    scale: 0.85;
     position: relative;
     margin: 0;
     background: rgb(126, 244, 11, 0.1);
@@ -257,14 +258,14 @@ input[type=checkbox]::before {
     position: relative;
     scale: 0;
     opacity: 0;
-    background: rgb(101, 29, 202, 0.75);
+    background: rgb(126, 244, 11, 0.75);
     border-radius: 0.2rem;
-    box-shadow: 0 0 1rem rgb(101, 29, 202, 0.75);
+    box-shadow: 0 0 1rem rgb(126, 244, 11, 0.75);
     transition: scale 0.2s ease-in-out, opacity 0.2s ease-out;
 }
 
 input[type=checkbox]:checked {
-    border: 1px solid rgb(101, 29, 202, 0.1);
+    border: 1px solid rgb(126, 244, 11, 0.1);
 }
 
 input[type=checkbox]:checked:before {
@@ -274,8 +275,8 @@ input[type=checkbox]:checked:before {
 
 label {
     font-family: 'Josefin Sans', sans-serif;
-    color: rgb(101, 29, 202);
-    text-shadow: 0 0 1.5rem #651dca;
+    color: rgb(126, 244, 11);
+    text-shadow: 0 0 1.5rem rgb(126, 244, 11);
     display: inline;
 }`),
         style = document.createElement("style");
