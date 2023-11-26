@@ -284,3 +284,4 @@ label {
     document.head.append(style)
     customElements.define("custom-menu", CustomMenu, { extends: "div" })
 })()
+
