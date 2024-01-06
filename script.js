@@ -236,7 +236,7 @@ input[type=checkbox] {
     align-items: center;
     justify-content: center;
     width: 1.5rem;
-    aspect-ratio: 1;
+    height: 1.5rem;
     padding: 0;
     scale: 0.85;
     position: relative;
